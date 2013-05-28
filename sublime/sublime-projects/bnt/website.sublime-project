@@ -1,0 +1,13 @@
+{
+	"folders":
+	[
+		{
+			"folder_exclude_patterns":
+			[
+				"app/cache",
+				".sass-cache"
+			],
+			"path": "/Users/jamesgorrie/projects/bnt/Public"
+		}
+	]
+}
