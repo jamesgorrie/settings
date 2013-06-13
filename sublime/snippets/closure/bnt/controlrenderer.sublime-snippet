@@ -27,7 +27,7 @@ goog.scope(function() {
     /**
      * @type {string}
      */
-    _.$1.CSS_CLASS = '';
+    _.$1.CSS_CLASS = '${2:CSS class}';
 
     /**
      * Enumeration for components
@@ -76,7 +76,7 @@ goog.scope(function() {
      * @type {string}
      * @protected
      */
-    _.$1.prototype.templateName = '';
+    _.$1.prototype.templateName = '${3:Template name}';
 }); // goog.scope
 
 ]]></content>
