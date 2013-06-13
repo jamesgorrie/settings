@@ -1,6 +1,7 @@
 {
 	"installed_packages":
 	[
+		"Cucumber",
 		"HTML Mustache",
 		"Package Control",
 		"PHP-Twig",

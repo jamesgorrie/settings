@@ -1,0 +1,4 @@
+{
+    "working_dir": "${filepath}",
+    "cmd": ["make", "client-deps", "client-build"]
+}

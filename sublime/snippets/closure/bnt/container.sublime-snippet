@@ -1,0 +1,43 @@
+<snippet>
+  <content><![CDATA[
+goog.provide('bnt.client.ui.${1:ContainerName}');
+
+goog.require('bnt.client.ui.Container');
+
+goog.scope(function() {
+
+    var _ = bnt.client.ui,
+        ui = bnt.client.ui;
+
+    /**
+     * @constructor
+     * @extends bnt.client.ui.Container
+     */
+    _.$1 = function(contentApi, opt_content, opt_renderer, opt_domHelper) {
+        goog.base(this, opt_content, opt_renderer, opt_domHelper);
+        this.contentApi_ = contentApi;
+    };
+    goog.inherits(_.$1, _.Container);
+
+    /**
+     * @override
+     */
+    _.$1.prototype.enterDocument = function() {
+        goog.base(this, 'enterDocument');
+        this.getHandler()
+            //.listen(elem, event, this.handler);
+    };
+
+    //-------------------------------------------------------------------
+
+    goog.ui.registry.setDefaultRenderer(
+        _.$1, _.$1Renderer
+    );
+
+}); // goog.scope
+
+]]></content>
+    <tabTrigger>bntcont</tabTrigger>
+    <scope>source.js</scope>
+    <description>BNT Closure Control</description>
+</snippet>
