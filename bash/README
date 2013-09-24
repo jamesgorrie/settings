@@ -1,4 +1,0 @@
-For swapping computers do this:
-
-    ln -s .profile ~/.profile
-    source ~/.profile
