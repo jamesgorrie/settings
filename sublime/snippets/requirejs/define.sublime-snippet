@@ -1,0 +1,13 @@
+<snippet>
+    <content><![CDATA[
+define([
+    '${1:dependency}'
+], function(
+    $1
+) {
+    
+});
+]]></content>
+    <tabTrigger>def</tabTrigger>
+    <!-- <scope>source.javascript</scope> -->
+</snippet>
