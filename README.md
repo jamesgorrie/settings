@@ -6,8 +6,8 @@
     source ~/.bash_profile
 
     # Sublime
-    rm -rf ~/Library/Application\ Support/Sublime\ Text\ 2/Packages/User
-    ln -s ~/settings/sublime ~/Library/Application\ Support/Sublime\ Text\ 2/Packages/User
+    rm -rf ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User
+    ln -s ~/settings/sublime ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User
 
     # iTerm2
     rm ~/Library/Preferences/com.googlecode.iterm2.plist
